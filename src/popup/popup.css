@@ -1,0 +1,54 @@
+body {
+    width: 300px;
+    height: 480px;
+    padding: 20px;
+    font-size: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.demo {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.demo__header {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.demo__color {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.demo__plateBg {
+    width: 32px;
+    height: 32px;
+    flex-grow: 0;
+    margin-right: 16px;
+    position: relative;
+    background: url(../i/bg.png);
+    border-radius: 4px;
+    background-size: 16px;
+    overflow: hidden;
+}
+
+.demo__plate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.demo__label {
+    font-size: 15px;
+    line-height: 32px;
+}

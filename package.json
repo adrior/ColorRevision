@@ -1,0 +1,27 @@
+{
+    "name": "extension-starter",
+    "version": "1.0.0",
+    "description": "Easy way to start your extension prototype",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.yandex-team.ru:chetverukhin/extension-starter.git"
+    },
+    "author": "chetverukhin",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.12.1",
+        "webpack": "^4.8.1",
+        "webpack-cli": "^2.1.3",
+        "copy-webpack-plugin": "^4.5.1"
+    },
+    "prettier": {
+        "semi": false,
+        "tabWidth": 4,
+        "singleQuote": true,
+        "trailingComma": "es5"
+    }
+}

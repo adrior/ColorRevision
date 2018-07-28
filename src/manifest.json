@@ -1,0 +1,22 @@
+{
+    "name": "Color Revision Demo",
+    "description": "Review all colors from wabpage",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["scripts/index.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "scripts": ["utils/hot-reload.js"]
+    },
+    "permissions": ["tabs"],
+    "author": "Yandex",
+    "version": "1.0.0",
+    "manifest_version": 2
+}
